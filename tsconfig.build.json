@@ -1,14 +1,23 @@
 {
-  "extends": "./tsconfig.json",
   "compilerOptions": {
     "noEmit": false,
     "outDir": "./dist/server",
+    "rootDir": ".",
     "module": "CommonJS",
     "target": "ES2020",
-    "allowImportingTsExtensions": false,
-    "moduleResolution": "node",
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": false,
+    "declaration": false,
+    "removeComments": true
   },
-  "include": ["server/**/*", "shared/**/*"]
+  "include": [
+    "server/index.ts",
+    "server/routes.ts",
+    "server/storage.ts",
+    "server/vite.ts",
+    "shared/schema.ts"
+  ]
 }

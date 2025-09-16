@@ -1,4 +1,4 @@
-import { type User, type InsertUser, type Product, type InsertProduct, type CartItem, type InsertCartItem } from "@shared/schema";
+import { type User, type InsertUser, type Product, type InsertProduct, type CartItem, type InsertCartItem } from "../shared/schema.js";
 import { randomUUID } from "crypto";
 import fs from "fs";
 import path from "path";
@@ -59,7 +59,10 @@ export class MemStorage implements IStorage {
   }
 
   createUser(user: InsertUser): Promise<User> {
-    const newUser = { id: randomUUID(), ...user };
+    const newUser = { 
+      id: randomUUID(), 
+      ...user 
+    } as User;
     this.users.push(newUser);
     return Promise.resolve(newUser);
   }
