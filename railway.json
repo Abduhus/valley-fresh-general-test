@@ -4,14 +4,13 @@
     "nixpacksPlan": {
       "phases": {
         "setup": {
-          "nixPkgs": ["nodejs", "yarn"],
-          "cmds": ["npm install -g typescript"]
+          "nixPkgs": ["nodejs", "yarn", "typescript"]
         },
         "install": {
           "cmds": ["npm ci"]
         },
         "build": {
-          "cmds": ["npm run build:server", "npm run build:client"]
+          "cmds": ["npm run build"]
         }
       },
       "providers": ["node"]
