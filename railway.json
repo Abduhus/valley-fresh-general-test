@@ -1,14 +1,13 @@
 {
   "build": {
     "builder": "NIXPACKS",
-    "nixpacksConfigPath": ".nixpacks/configuration.nix",
     "nixpacksPlan": {
       "phases": {
         "setup": {
           "nixPkgs": ["nodejs", "yarn"]
         },
         "install": {
-          "cmds": ["npm ci"]
+          "cmds": ["npm ci", "npm install -g typescript"]
         },
         "build": {
           "cmds": ["npm run build"]
