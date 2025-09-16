@@ -1,7 +1,7 @@
 {
   "name": "valley-preview-perfume-ecommerce",
   "version": "1.0.0",
-  "description": "Luxury Perfume E-commerce Platform",
+  "description": "Luxury Perfume E-commerce Platform - Fixed TypeScript build issues for Railway deployment",
   "main": "server/index.ts",
   "scripts": {
     "dev": "cross-env NODE_ENV=development tsx server/index.ts",
