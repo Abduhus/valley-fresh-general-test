@@ -1,5 +1,21 @@
 import { type User, type InsertUser, type Product, type InsertProduct, type CartItem, type InsertCartItem } from "@shared/schema";
 import { randomUUID } from "crypto";
+import fs from "fs";
+import path from "path";
+
+// Load products from the JSON file
+let initialProducts: Product[] = [];
+try {
+  const productsData = fs.readFileSync(path.join(process.cwd(), 'all-products.json'), 'utf-8');
+  initialProducts = JSON.parse(productsData);
+  // Convert stringified arrays back to arrays
+  initialProducts = initialProducts.map(product => ({
+    ...product,
+    images: product.images ? JSON.parse(product.images) : null
+  }));
+} catch (error) {
+  console.error("Failed to load products from all-products.json:", error);
+}
 
 export interface IStorage {
   // User operations
@@ -26,7 +42,7 @@ export interface IStorage {
 
 export class MemStorage implements IStorage {
   private users: User[] = [];
-  private products: Product[] = [];
+  private products: Product[] = initialProducts; // Initialize with loaded products
   private cartItems: CartItem[] = [];
 
   // User operations

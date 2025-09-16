@@ -1,0 +1,168 @@
+2025-09-16T18:57:29.913478804Z [inf]  
+2025-09-16T18:57:35.098713342Z [inf]  [35m[Region: asia-southeast1][0m
+2025-09-16T18:57:36.691159224Z [inf]  
+2025-09-16T18:57:36.691215562Z [inf]  [38;2;125;86;243m╭────────────────╮[0m
+2025-09-16T18:57:36.691220225Z [inf]  [38;2;125;86;243m│[0m Railpack 0.6.0 [38;2;125;86;243m│[0m
+2025-09-16T18:57:36.691224189Z [inf]  [38;2;125;86;243m╰────────────────╯[0m
+2025-09-16T18:57:36.691229717Z [inf]  
+2025-09-16T18:57:36.691233479Z [inf]  [97m↳ Detected Node[0m
+2025-09-16T18:57:36.691236976Z [inf]  [97m↳ Using npm package manager[0m
+2025-09-16T18:57:36.691240443Z [inf]  [33m⚠ Node_modules directory found in project root, this is likely a mistake[0m
+2025-09-16T18:57:36.691244214Z [inf]  [33m⚠ It is recommended to add node_modules to the .gitignore file[0m
+2025-09-16T18:57:36.691249104Z [inf]  
+2025-09-16T18:57:36.691253169Z [inf]  [1mPackages[0m
+2025-09-16T18:57:36.691256539Z [inf]  [38;5;238m──────────[0m
+2025-09-16T18:57:36.691259982Z [inf]  [95mnode[0m  [38;5;238m│[0m  [96m20.19.5[0m  [38;5;238m│[0m  package.json > engines > node (>=20.0.0)
+2025-09-16T18:57:36.691263156Z [inf]  
+2025-09-16T18:57:36.691266381Z [inf]  [1mSteps[0m
+2025-09-16T18:57:36.691269453Z [inf]  [38;5;238m──────────[0m
+2025-09-16T18:57:36.691272544Z [inf]  [95m▸ install[0m
+2025-09-16T18:57:36.691276272Z [inf]  [38;5;245m$[0m [1mmkdir -p /app/node_modules/.cache[0m
+2025-09-16T18:57:36.691279713Z [inf]  [38;5;245m$[0m [1mnpm ci[0m
+2025-09-16T18:57:36.691282791Z [inf]  
+2025-09-16T18:57:36.691286062Z [inf]  [95m▸ build[0m
+2025-09-16T18:57:36.691288877Z [inf]  [38;5;245m$[0m [1mnpm run build[0m
+2025-09-16T18:57:36.691291887Z [inf]  
+2025-09-16T18:57:36.691294974Z [inf]  [1mDeploy[0m
+2025-09-16T18:57:36.691297794Z [inf]  [38;5;238m──────────[0m
+2025-09-16T18:57:36.691300673Z [inf]  [38;5;245m$[0m [1mnpm run start[0m
+2025-09-16T18:57:36.691303830Z [inf]  
+2025-09-16T18:57:36.691306744Z [inf]  
+2025-09-16T18:57:36.692478490Z [inf]  Successfully prepared Railpack plan for build
+2025-09-16T18:57:36.692522711Z [inf]  
+2025-09-16T18:57:36.692534372Z [inf]  
+2025-09-16T18:57:36.693083379Z [inf]  context: 3vfx-kDsS
+2025-09-16T18:57:36.826415551Z [inf]  [internal] load build definition from railpack-plan.json
+2025-09-16T18:57:36.826472491Z [inf]  [internal] load build definition from railpack-plan.json
+2025-09-16T18:57:36.826489591Z [inf]  [internal] load build definition from railpack-plan.json
+2025-09-16T18:57:36.826501606Z [inf]  [internal] load build definition from railpack-plan.json
+2025-09-16T18:57:36.835124005Z [inf]  [internal] load build definition from railpack-plan.json
+2025-09-16T18:57:36.836535503Z [inf]  resolve image config for docker-image://ghcr.io/railwayapp/railpack-frontend:v0.6.0
+2025-09-16T18:57:38.677730988Z [inf]  resolve image config for docker-image://ghcr.io/railwayapp/railpack-frontend:v0.6.0
+2025-09-16T18:57:38.677798185Z [inf]  docker-image://ghcr.io/railwayapp/railpack-frontend:v0.6.0@sha256:e0b25dd5f586bc67c8ea768c35196087bfce140df8863e23a81720ff528b11e5
+2025-09-16T18:57:38.677816064Z [inf]  docker-image://ghcr.io/railwayapp/railpack-frontend:v0.6.0@sha256:e0b25dd5f586bc67c8ea768c35196087bfce140df8863e23a81720ff528b11e5
+2025-09-16T18:57:38.683287976Z [inf]  docker-image://ghcr.io/railwayapp/railpack-frontend:v0.6.0@sha256:e0b25dd5f586bc67c8ea768c35196087bfce140df8863e23a81720ff528b11e5
+2025-09-16T18:57:38.683448349Z [inf]  docker-image://ghcr.io/railwayapp/railpack-frontend:v0.6.0@sha256:e0b25dd5f586bc67c8ea768c35196087bfce140df8863e23a81720ff528b11e5
+2025-09-16T18:57:38.683578399Z [inf]  docker-image://ghcr.io/railwayapp/railpack-frontend:v0.6.0@sha256:e0b25dd5f586bc67c8ea768c35196087bfce140df8863e23a81720ff528b11e5
+2025-09-16T18:57:38.690121146Z [inf]  docker-image://ghcr.io/railwayapp/railpack-frontend:v0.6.0@sha256:e0b25dd5f586bc67c8ea768c35196087bfce140df8863e23a81720ff528b11e5
+2025-09-16T18:57:38.691824058Z [inf]  docker-image://ghcr.io/railwayapp/railpack-frontend:v0.6.0@sha256:e0b25dd5f586bc67c8ea768c35196087bfce140df8863e23a81720ff528b11e5
+2025-09-16T18:57:40.541973382Z [inf]  docker-image://ghcr.io/railwayapp/railpack-frontend:v0.6.0@sha256:e0b25dd5f586bc67c8ea768c35196087bfce140df8863e23a81720ff528b11e5
+2025-09-16T18:57:40.719404038Z [inf]  load build definition from railpack-plan.json
+2025-09-16T18:57:40.719450659Z [inf]  load build definition from railpack-plan.json
+2025-09-16T18:57:40.719462426Z [inf]  load build definition from railpack-plan.json
+2025-09-16T18:57:40.728400129Z [inf]  load build definition from railpack-plan.json
+2025-09-16T18:57:40.749312394Z [inf]  copy /etc/mise/config.toml
+2025-09-16T18:57:40.749349502Z [inf]  copy /usr/local/bin/mise
+2025-09-16T18:57:40.749358796Z [inf]  copy /mise/installs
+2025-09-16T18:57:40.749365942Z [inf]  copy /mise/shims
+2025-09-16T18:57:40.749373701Z [inf]  install mise packages: node
+2025-09-16T18:57:40.749385186Z [inf]  create mise config
+2025-09-16T18:57:40.749391249Z [inf]  mkdir /etc/mise
+2025-09-16T18:57:40.749397854Z [inf]  docker-image://ghcr.io/railwayapp/railpack-builder:latest
+2025-09-16T18:57:40.749402899Z [inf]  docker-image://ghcr.io/railwayapp/railpack-runtime:latest
+2025-09-16T18:57:40.749423248Z [inf]  loading .
+2025-09-16T18:57:40.749429682Z [inf]  mkdir -p /app/node_modules/.cache
+2025-09-16T18:57:40.749436789Z [inf]  copy /root/.local/state/mise
+2025-09-16T18:57:40.749470754Z [inf]  [railpack] merge ghcr.io/railwayapp/railpack-runtime:latest, $packages:mise, $build, $build
+2025-09-16T18:57:40.749478850Z [inf]  copy /app
+2025-09-16T18:57:40.749485057Z [inf]  copy /root/.cache
+2025-09-16T18:57:40.749492886Z [inf]  copy /app/node_modules
+2025-09-16T18:57:40.749498337Z [inf]  npm run build
+2025-09-16T18:57:40.749504189Z [inf]  [railpack] secrets hash
+2025-09-16T18:57:40.749509812Z [inf]  copy / /app
+2025-09-16T18:57:40.749515437Z [inf]  npm ci
+2025-09-16T18:57:40.749522010Z [inf]  copy node_modules/drizzle-orm/prisma
+2025-09-16T18:57:40.749527552Z [inf]  copy package-lock.json
+2025-09-16T18:57:40.749532772Z [inf]  copy package.json
+2025-09-16T18:57:40.749544894Z [inf]  docker-image://ghcr.io/railwayapp/railpack-runtime:latest
+2025-09-16T18:57:40.749554136Z [inf]  loading .
+2025-09-16T18:57:40.749563135Z [inf]  loading .
+2025-09-16T18:57:40.749591842Z [inf]  [railpack] secrets hash
+2025-09-16T18:57:40.749857162Z [inf]  docker-image://ghcr.io/railwayapp/railpack-builder:latest
+2025-09-16T18:57:42.575425441Z [inf]  docker-image://ghcr.io/railwayapp/railpack-runtime:latest
+2025-09-16T18:57:42.575481031Z [inf]  docker-image://ghcr.io/railwayapp/railpack-runtime:latest
+2025-09-16T18:57:42.575527154Z [inf]  docker-image://ghcr.io/railwayapp/railpack-runtime:latest
+2025-09-16T18:57:42.584161893Z [inf]  docker-image://ghcr.io/railwayapp/railpack-runtime:latest
+2025-09-16T18:57:42.586363295Z [inf]  docker-image://ghcr.io/railwayapp/railpack-builder:latest
+2025-09-16T18:57:42.586586794Z [inf]  docker-image://ghcr.io/railwayapp/railpack-builder:latest
+2025-09-16T18:57:42.586784063Z [inf]  loading .
+2025-09-16T18:57:42.586802095Z [inf]  docker-image://ghcr.io/railwayapp/railpack-builder:latest
+2025-09-16T18:57:42.586820703Z [inf]  [railpack] secrets hash
+2025-09-16T18:57:42.604666990Z [inf]  [railpack] secrets hash
+2025-09-16T18:57:42.624254913Z [inf]  docker-image://ghcr.io/railwayapp/railpack-builder:latest
+2025-09-16T18:57:42.626228291Z [inf]  docker-image://ghcr.io/railwayapp/railpack-builder:latest
+2025-09-16T18:57:46.133414837Z [inf]  loading .
+2025-09-16T18:57:57.393886117Z [inf]  docker-image://ghcr.io/railwayapp/railpack-builder:latest
+2025-09-16T18:58:01.810843235Z [inf]  mkdir /etc/mise
+2025-09-16T18:58:02.063433086Z [inf]  mkdir /etc/mise
+2025-09-16T18:58:02.064397156Z [inf]  create mise config
+2025-09-16T18:58:02.082101184Z [inf]  create mise config
+2025-09-16T18:58:02.083021532Z [inf]  install mise packages: node
+2025-09-16T18:58:02.253863759Z [inf]  mise node@20.19.5    install
+
+2025-09-16T18:58:02.2547379Z [inf]  mise node@20.19.5    download node-v20.19.5-linux-x64.tar.gz
+
+2025-09-16T18:58:02.649024585Z [inf]  mise node@20.19.5    extract node-v20.19.5-linux-x64.tar.gz
+
+2025-09-16T18:58:03.488585712Z [inf]  mise node@20.19.5    node -v
+
+2025-09-16T18:58:03.491636109Z [inf]  mise node@20.19.5    v20.19.5
+
+2025-09-16T18:58:03.492330701Z [inf]  mise node@20.19.5    npm -v
+
+2025-09-16T18:58:03.575299768Z [inf]  mise node@20.19.5    10.8.2
+
+2025-09-16T18:58:03.588620512Z [inf]  mise node@20.19.5  ✓ installed
+
+2025-09-16T18:58:03.660807203Z [inf]  install mise packages: node
+2025-09-16T18:58:03.661873651Z [inf]  mkdir -p /app/node_modules/.cache
+2025-09-16T18:58:03.831903902Z [inf]  mkdir -p /app/node_modules/.cache
+2025-09-16T18:58:03.832900784Z [inf]  copy package.json
+2025-09-16T18:58:03.858602328Z [inf]  copy package.json
+2025-09-16T18:58:03.860889785Z [inf]  copy package-lock.json
+2025-09-16T18:58:03.875721731Z [inf]  copy package-lock.json
+2025-09-16T18:58:03.877700723Z [inf]  copy node_modules/drizzle-orm/prisma
+2025-09-16T18:58:03.945872846Z [inf]  copy node_modules/drizzle-orm/prisma
+2025-09-16T18:58:03.947007515Z [inf]  npm ci
+2025-09-16T18:58:04.119489335Z [inf]  npm warn config production Use `--omit=dev` instead.
+
+2025-09-16T18:58:04.513370974Z [inf]  copy /mise/shims
+2025-09-16T18:58:04.519770681Z [inf]  copy /mise/shims
+2025-09-16T18:58:04.520686186Z [inf]  copy /mise/installs
+2025-09-16T18:58:04.968478439Z [inf]  copy /mise/installs
+2025-09-16T18:58:04.969594215Z [inf]  copy /usr/local/bin/mise
+2025-09-16T18:58:05.036251816Z [inf]  copy /usr/local/bin/mise
+2025-09-16T18:58:05.037345579Z [inf]  copy /etc/mise/config.toml
+2025-09-16T18:58:05.049120764Z [inf]  copy /etc/mise/config.toml
+2025-09-16T18:58:05.050208307Z [inf]  copy /root/.local/state/mise
+2025-09-16T18:58:05.062525710Z [inf]  copy /root/.local/state/mise
+2025-09-16T18:58:06.998778012Z [inf]  npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+
+2025-09-16T18:58:07.233654524Z [inf]  npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+
+2025-09-16T18:58:09.802030405Z [inf]  
+added 461 packages, and audited 462 packages in 6s
+
+2025-09-16T18:58:09.819912853Z [inf]  
+4 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+2025-09-16T18:58:09.932573318Z [inf]  npm ci
+2025-09-16T18:58:09.933339717Z [inf]  copy / /app
+2025-09-16T18:58:12.461770684Z [inf]  copy / /app
+2025-09-16T18:58:12.462658110Z [inf]  npm run build
+2025-09-16T18:58:12.747006416Z [inf]  npm warn config production Use `--omit=dev` instead.
+
+2025-09-16T18:58:12.759891687Z [inf]  
+> valley-preview-perfume-ecommerce@1.0.0 build
+> tsc --project tsconfig.build.json && vite build
+
+
+2025-09-16T18:58:12.763108362Z [inf]  sh: 1: tsc: Permission denied
+
+2025-09-16T18:58:12.903977228Z [err]  npm run build
+2025-09-16T18:58:12.918647364Z [err]  ERROR: failed to build: failed to solve: process "npm run build" did not complete successfully: exit code: 127
